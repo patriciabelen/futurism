@@ -1,0 +1,474 @@
+*{
+	margin:0px; 
+	padding:0px; 
+	box-sizing:border-box;
+}
+html {
+font-size: 18px;
+}
+body {
+	background: #f6f5f3;
+font-style: normal;
+}
+a {
+	text-decoration: none;
+	color: yellow;
+}
+img{
+	width:100%;
+}
+.container {
+	width: 100%;
+	margin: auto;
+	padding: 100px 5%;
+}
+
+
+article {
+	margin: 0 auto;
+	width: 100%;
+	display: flex;
+}
+.col-50 {
+	width: 50%;
+}
+.col-50 img {
+	width: 80%;
+	margin: 0 10%;
+}
+.col-25 {
+	width: 25%;
+}
+.col-75 {
+	width: 75%;
+}
+.year-container {
+	display: flex;
+	padding: 40px 0 40px 0;
+	border-bottom: 1px solid #ccc;
+}
+.gutter-right {
+	padding-right: 40px;
+}
+
+h1.year {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	font-family: acumin-pro, sans-serif;
+	font-weight: 600;
+font-size: 5rem;
+line-height:1;
+	color: black;
+	margin: 20px 0 0 0;
+	letter-spacing: -1px;
+}
+h2 {
+font-family: orpheuspro, serif;
+font-weight: 700;
+font-size: 1.9rem;
+line-height: 1.2;
+margin: 0 0px 30px 0;
+}
+h3 {
+font-family: orpheuspro, serif;
+font-weight: 500;
+font-size: 1.1rem;
+line-height: 1.6;
+text-transform:uppercase;	
+margin: 0 0px 30px 0;
+}
+h4 {
+font-family: acumin-pro, sans-serif;
+font-weight: 300;
+font-size: 1rem;
+line-height: 1.2;	
+margin: 0 0px 30px 0;
+}
+h4 i {
+	font-style: italic;
+	font-weight: 300;
+}
+p {
+font-family: acumin-pro, sans-serif;
+font-weight: 300;
+font-size: 1rem;
+line-height: 1.5;
+margin: 0 0px 10px 0;
+}
+
+
+
+/* HOME --------------- */
+#intro {
+	height: 100vh;
+	position: relative;
+	background-image: url(images/marinetti.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-color: #000;
+}
+.timeline #intro, .map #intro, .excerpt #intro {
+	height: 80vh;
+}
+.vcenter {
+margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  	padding: 0 25% 0 5%;
+}
+.links {
+	display: flex;
+	margin: 60px 0 0 0;
+}
+.links .col-25 {
+	width: 33%;
+	padding-right: 50px;
+}
+#intro.hoverone {
+    background-image: url(images/lefigaro.png);
+}
+#intro.hovertwo {
+    background-image: url(images/balla.png);
+}
+#intro.hoverthree {
+    background-image: url(images/parole.png);
+}
+h1 {
+font-family: orpheuspro, serif;
+font-weight: 400;
+font-size: 10vw;
+line-height: 1;
+text-transform:uppercase;
+margin: 0 0px 30px 0;
+color: white;
+}
+h1 span {
+text-transform:lowercase;
+font-style: italic;	
+}
+h2.about {
+font-family: acumin-pro, sans-serif;
+font-weight: 300;
+font-size: 1rem;
+line-height: 1.5;
+margin: 0 100px 10px 0;
+color: white;
+}
+
+h3.part {
+font-size: 1.8rem;
+line-height: 1.6;
+margin: 0 0px 0px 0;
+color: yellow;
+}
+.footer h1 {
+font-size: 6vw;
+	
+}
+
+
+
+/* TIMELINE --------------- */
+
+.top {
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-color: #000;
+}
+.top h1 {
+font-size: 12vw;
+margin: 0 0px 0px 0;
+color: yellow;
+}
+
+.top h2.about {
+margin: 0 0 10px 0;
+}
+
+.top h3.part {
+font-size: 2rem;
+line-height: 1.6;
+margin: 0 0px 40px 0;
+}
+
+
+
+.timeline .top {
+	background-image: url(images/lefigaro.png);
+}
+
+
+
+/* MAP --------------- */
+.map-container {
+	height: 100vh;
+	width: 100%;
+}
+.map .top {
+	background-image: url(images/balla.png);
+}
+
+
+
+
+
+
+
+/* EXCERPT --------------- */
+.excerpt .top {
+	background-image: url(images/parole.png);
+}
+
+.text{
+	font-size:2rem; 
+	line-height:1.7; 
+font-family: orpheuspro, serif;
+	overflow:hidden; 
+	font-kerning: none;
+	}
+.text span{
+	font-family: acumin-pro, sans-serif;
+	font-weight: 600;
+	overflow:hidden;
+	}
+
+.cluster{
+	position:relative; 
+	width:100%; 
+	max-width:874px; 
+	height:792px; 
+	margin:100px auto; 
+	background-color:transparent; 
+	padding-bottom:100px;
+}
+
+.clusterPieces{
+	position:absolute;
+}
+.dannunzio{
+	width:100%; 
+	height:auto; 
+	max-width:400px; 
+	top:0; 
+	right:0; 
+	z-index:3;
+}
+.minerva{
+	width:100%; 
+	height:auto; 
+	max-width:550px; 
+	z-index:5; 
+	left:0; 
+	top:80px;
+}
+.apollo{
+	width:100%; 
+	height:auto; 
+	max-width:450px; 
+	z-index:4; 
+	right:0; 
+	top:150px;
+}
+
+.capf{
+	width:100%; 
+	max-width:200px; 
+	left:50px; 
+	bottom:20px; 
+	z-index:1;
+}
+
+.capt{
+	width:100%; 
+	max-width:200px; 
+	left:100px; 
+	bottom:20px; 
+	z-index:2;
+}
+
+.caption{
+font-family: acumin-pro, sans-serif;
+font-weight: 300;
+font-style: italic;
+	font-size:0.8rem; 
+	color:#a5a4a2; 
+	text-align:right;
+}
+.caption span{
+font-weight: 500;
+font-style: normal;
+}
+
+/*#wrappie{
+	width:960px; 
+	height:792px; 
+	margin:0 auto;
+}*/
+
+.zang {
+	width:100%; 
+	height:auto; 
+	max-width:800px; 
+	top:150px; 
+	right:-150px; 
+	z-index:1;
+}
+
+.lesmots {
+	width:100%; 
+	max-width:350px; 
+	left:-150px; 
+	top:0; 
+	z-index:3;
+}
+
+
+
+.scrab {
+	width:100%; 
+	height:auto; 
+	max-width:350px; 
+	z-index:2; 
+	left:150px; 
+	top:250px;
+}
+
+
+.parole {
+	width:100%; 
+	height:auto; 
+	max-width:600px; 
+	top:150px; 
+	right:0px; 
+	z-index:2;
+}
+
+.mallarme {
+	width:100%; 
+	max-width:700px; 
+	left:-100px; 
+	top:0; 
+	z-index:1;
+}
+
+
+.guerre {
+	width:100%; 
+	max-width:400px; 
+	left:-100px; 
+	top:500px; 
+	z-index:1;
+}
+.belle {
+	width:100%; 
+	max-width:300px; 
+	left:-150px; 
+	top:250px; 
+	z-index:1;
+}
+.numbers {
+	width:100%; 
+	max-width:150px; 
+	left: -50px; 
+	top:-50px; 
+	z-index:1;
+}
+.mmss {
+	width:100%; 
+	max-width:500px; 
+	left:100px; 
+	top:0; 
+	z-index:1;
+}
+.amii {
+	width:100%; 
+	max-width:400px; 
+	right:-150px; 
+	top:-100px; 
+	z-index:1;
+}
+.mnvh {
+	width:100%; 
+	max-width:500px; 
+	right:80px; 
+	top:250px; 
+	z-index:1;
+}
+.verbal {
+	width:100%; 
+	max-width:400px; 
+	right:-150px; 
+	top:550px; 
+	z-index:1;
+}
+
+
+.spcr300{
+	padding-bottom:300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES --------------- */
+@media (max-width: 1200px) {
+html {
+font-size: 16px;
+}
+}
+
+@media (max-width: 1000px) {
+html {
+font-size: 14px;
+}
+h1.year {
+font-size: 72px;
+margin: 25px 0 0 0;
+}
+h2.about {
+margin: 0 0 10px 0;
+}
+
+}
+@media (max-width: 700px){
+.links, article {
+	display: block;
+}
+.col-50 {
+	width: 100%;
+}
+.col-25 {
+	width: 100%;
+}
+.col-75 {
+	width: 100%;
+}
+.year-container {
+	display: block;
+	}
+	
+}
