@@ -188,18 +188,18 @@ gsap.to(".clusterThree", {
 
 
 /* ------Part Four Sequence------  */
-gsap.set(".guerre", { yPercent: 0, xPercent: -200});
-gsap.set(".belle", { yPercent: -150, xPercent: -50, rotation: -180});
-gsap.set(".numbers", { yPercent: 0, xPercent: 250});
+gsap.set(".guerre", { yPercent: 0, xPercent: -150});
+gsap.set(".belle", { yPercent: -120, xPercent: -50, rotation: -180});
+gsap.set(".numbers", { yPercent: 0, xPercent: 200});
 gsap.set(".mmss", { yPercent: 0, xPercent: 100, rotation: 30});
-gsap.set(".amii", { yPercent: -50, xPercent: 0, rotation: 180});
-gsap.set(".mnvh", { yPercent: 150, xPercent: 0, rotation: -50});
+gsap.set(".amii", { yPercent: -20, xPercent: 0, rotation: 180});
+gsap.set(".mnvh", { yPercent: 100, xPercent: 0, rotation: -50});
 gsap.set(".verbal", { yPercent: 0, xPercent: 0, rotation: -180});
 gsap.set(".clusterFour", { yPercent: 0, xPercent: 0});
 
 gsap.to(".guerre", {
   yPercent: 0,
-  xPercent: 200,
+  xPercent: 150,
   ease: "none",
   scrollTrigger: {
     trigger: ".clusterFour",
@@ -208,8 +208,8 @@ gsap.to(".guerre", {
 });
 
 gsap.to(".belle", {
-  yPercent: 150,
-  xPercent: 250,
+  yPercent: 120,
+  xPercent: 220,
   rotation: 0,
   ease: "none",
   scrollTrigger: {
@@ -220,7 +220,7 @@ gsap.to(".belle", {
 
 gsap.to(".numbers", {
   yPercent: 0,
-  xPercent: -200,
+  xPercent: -150,
   ease: "none",
   scrollTrigger: {
     trigger: ".clusterFour",
@@ -230,7 +230,7 @@ gsap.to(".numbers", {
 
 gsap.to(".mmss", {
   yPercent: 0,
-  xPercent: -200,
+  xPercent: -100,
   rotation: 0,
   ease: "none",
   scrollTrigger: {
@@ -240,8 +240,8 @@ gsap.to(".mmss", {
 });
 
 gsap.to(".amii", {
-  yPercent: 200,
-  xPercent: 50,
+  yPercent: 100,
+  xPercent: 20,
   rotation: 0,
   ease: "none",
   scrollTrigger: {
@@ -251,7 +251,7 @@ gsap.to(".amii", {
 });
 
 gsap.to(".mnvh", {
-  yPercent: -200,
+  yPercent: -100,
   xPercent: 0,
   rotation: 0,
   ease: "none",
@@ -262,7 +262,7 @@ gsap.to(".mnvh", {
 });
 
 gsap.to(".verbal", {
-  yPercent: -250,
+  yPercent: -200,
   xPercent: 0,
   rotation: 0,
   ease: "none",
