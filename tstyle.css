@@ -14,6 +14,9 @@ a {
 	text-decoration: none;
 	color: yellow;
 }
+a:hover {
+	text-decoration: underline;
+}
 img{
 	width:100%;
 }
@@ -158,7 +161,9 @@ line-height: 1.5;
 margin: 0 100px 10px 0;
 color: white;
 }
-
+h2.click {
+	color: yellow;
+}
 h3.part {
 font-size: 1.8rem;
 line-height: 1.6;
@@ -169,8 +174,12 @@ color: yellow;
 font-size: 6vw;
 	
 }
-
-
+h1 a {
+	color: white;
+}
+h1 a:hover {
+	text-decoration: none;
+}
 
 /* TIMELINE --------------- */
 
