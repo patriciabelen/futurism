@@ -1,4 +1,4 @@
-# Manifestos of Futurism
+# [Manifestos of Futurism](https://patriciabelen.github.io/futurism/)
 
 ## Patricia Belen
 ###### Digital Storytelling, Dr. James Lowry
