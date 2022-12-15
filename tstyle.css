@@ -256,6 +256,11 @@ margin: 0 0px 40px 0;
 #map-info p.source {
 	font-size: 0.7em;
 }
+#map-info p.footnote {
+	margin-top: 50px;
+	padding-top: 50px;
+	border-top: 1px solid #ccc;
+}
 h5 {
 	position: absolute;
 	top:20px;
