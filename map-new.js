@@ -39,7 +39,7 @@ const world = {
    "properties": {
    "Country":"Belgium",
    "Description":"The publication of the Foundation and Manifesto of Futurism in Le Figaro did not go unnoticed in Belgium, because in October 1909 Marinetti decided to directly target Belgian art circles with the publication of a short summary in the magazine La Fédération artistique. ",
-   "Image":"",
+   "Image":"images/map-belgium.jpeg",
    "Caption":"<i>Impressions in a Dance Hall</i> by Belgian Futurist painter Jules Schmalzigaug",
    "Source":"https://commons.wikimedia.org/wiki/File:Schmalzigaug_-_Impression_in_a_Dance_Hall.JPG"
    }
@@ -123,9 +123,9 @@ const world = {
    "properties": {
    "Country":"Egypt",
    "Description":"F. T. Marinetti was born here and lived in Alexandria until he was fifteen. In several of Marinetti’s works we can find memories drawn from his native country. After Egypt became a British Protectorate in 1882, many European intellectuals chose Egypt as a place of residence, and, conversely, many Egyptian writers and artists studied and received their training north of the Mediterranean. The transnational exchanges between Europe and the Middle East had a profound effect on literature and the arts in Egypt. ",
-   "Image":"https://youtu.be/beIgU5Js4j8",
+   "Image":"images/map-egypt.jpg",
    "Caption":"Amore, by Nelson Morpurgo who was a friend of Marinetti and is best known for his role in promoting Futurism in Cairo.",
-   "Source":""
+   "Source":"https://performamagazine.tumblr.com/post/49336314970/futurism-in-egypt-nelson-morpurgo-and-the-cairo"
    }
  },
  {
@@ -445,7 +445,7 @@ const world = {
    "properties": {
    "Country":"Spain",
    "Description":"When Marinetti published his Foundation and Manifesto of Futurism  in Le Figaro  in February 1909, he also sent out thousands of copies of the document to potentially interested individuals, among them quite a number of Spaniards. Javier Gómez de la Serna translated it for Prometeo, where it appeared, as “Fundación y manifiesto del futurismo” (Foundation and Manifesto of Futurism), in April 1909.",
-   "Image":"map-spain.jpg",
+   "Image":"images/map-spain.jpg",
    "Caption":"In April 1909 a Madrid-based magazine, <i>Prometeo</i>, published the Spanish translation of the manifesto which was translated by Ramón Gómez de la Serna",
    "Source":"https://en.wikipedia.org/wiki/Ram%C3%B3n_G%C3%B3mez_de_la_Serna#/media/File:Ram%C3%B3n_G%C3%B3mez_de_la_Serna_b_Meurisse_1928.jpg"
    }
@@ -496,7 +496,7 @@ const world = {
    "type": "Feature",
    "geometry": {
       "type": "Point",
-      "coordinates":  [ -95.712891,37.09024 ]
+      "coordinates":  [ -74.0060,40.7128 ]
    },
    "properties": {
    "Country":"U.S.A.",

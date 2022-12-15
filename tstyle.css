@@ -234,6 +234,27 @@ margin: 0 0px 40px 0;
 	width: 50%;
 	height: 100vh;
 	overflow:auto;
+	padding: 70px;
+}
+#map-info p {
+	font-size: 0.9em;
+}
+#map-info p.mapcaption {
+	font-size: 0.7em;
+	color: #666;
+}
+#map-info a {
+	color: blue;
+	border-bottom:1px solid blue;
+}
+#map-info a:hover {
+	text-decoration:none;
+}
+#map-info .image {
+	margin: 20px 0 0 0;
+}
+#map-info p.source {
+	font-size: 0.7em;
 }
 h5 {
 	position: absolute;
@@ -262,8 +283,23 @@ h5 {
 	transform:rotateZ(5deg);
 	font-size: 2.2em;
 }
-
-
+.customPopup .leaflet-popup-content-wrapper {
+    background: transparent;
+    box-shadow: none;
+}
+.customPopup .leaflet-popup-tip-container {
+	display: none;
+}
+.customPopup h5 {
+	font-size: 1.2em;
+	color: #000;
+	background: #fff;
+	padding: 2px;
+	line-height: 1.2;
+}
+.customPopup .leaflet-popup-content {
+	margin:0;
+}
 /* EXCERPT --------------- */
 .excerpt .top {
 	background-image: url(images/parole.png);
