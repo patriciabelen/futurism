@@ -218,15 +218,50 @@ margin: 0 0px 40px 0;
 .map-container {
 	height: 100vh;
 	width: 100%;
+	display: flex;
+	position: relative;
 }
 .map .top {
 	background-image: url(images/balla.png);
 }
-
-
-
-
-
+#map {
+	width: 50%;
+	height: 100vh;
+	position: sticky;
+	top: 0;
+}
+#map-info {
+	width: 50%;
+	height: 100vh;
+	overflow:auto;
+}
+h5 {
+	position: absolute;
+	top:20px;
+	left: 47%;
+	z-index: 999;
+	font-size: 2.5em;
+}
+.gothic {
+	font-family: alternate-gothic-no-2-d, sans-serif;
+	font-weight: 400;
+	transform:rotateZ(10deg);
+	text-transform:capitalize;
+}
+.orpheus {
+	font-family: orpheuspro, serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	transform:rotateZ(-10deg);
+	font-size: 2.2em;
+}
+.acumin {
+	font-family: acumin-pro, sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	transform:rotateZ(5deg);
+	font-size: 2.2em;
+}
 
 
 /* EXCERPT --------------- */
