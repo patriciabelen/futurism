@@ -8,7 +8,7 @@ var CartoDB_Positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/
 	maxZoom: 20
 }).addTo(countriesMap);
 
-countriesMap.setView([41.87194, 12.56738], 2.5);
+countriesMap.setView([41.87194, 12.56738], 2);
 
 
 
