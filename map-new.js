@@ -473,9 +473,9 @@ const world = {
    "properties": {
    "Country":"Ukraine",
    "Description":"In 1914, Mykhail (Mykhailo Vasylovich) Semenko (1892–1937), the founder and uncontested leader of Ukrainian Futurism, publishes his poetry collections Derzannia (Bravado, 1914) and Kvero-Futurism (Quaero-Futurism, 1914), which inaugurated the movement in Ukraine. ",
-   "Image":"",
-   "Caption":"",
-   "Source":""
+   "Image":"images/map-ukraine.jpg",
+   "Caption":"Semenko wrote a poem in 1922 in which he declared that it was “easier for three camels and a calf to traverse the eye of needle than for a Futurist to make his way through Ukrainian literature to his own people”.",
+   "Source":"https://en.wikipedia.org/wiki/Mykhaylo_Semenko#/media/File:%D0%A1%D0%B5%D0%BC%D0%B5%D0%BD%D0%BA%D0%BE_%D0%9C3.jpg"
    }
  },
  {
@@ -487,9 +487,9 @@ const world = {
    "properties": {
    "Country":"Uruguay",
    "Description":"Uruguay was the first country in Latin America that printed the Futurist manifesto published by Le Figaro on 20 February 1909. On 20 March 1909, El día (The Day), a newspaper in Montevideo, published a translation of the eleven points, together with a brief anonymous introduction, under the heading “El futurismo. Nueva escuela de principios. Contra los viejos moldes” (Futurism: A New School of Ideas. Against the Old Ways).",
-   "Image":"",
-   "Caption":"",
-   "Source":""
+   "Image":"images/map-uruguay.png",
+   "Caption":"In 1926, the Marinetti delivered a lecture in Montevideo, 398 tickets were sold, just half of the theatre’s capacity and the speaker received $65.84 of the box office taking of $354.20. The show was so disappointing for the organizers and propagandists, “The audience may not have been large, but it consisted of intelligent people, who knew how to bestow the right honours to a talented orator who spoke for over two hours in a clear and precise language”. ",
+   "Source":"https://collections.library.yale.edu/catalog/10663157"
    }
  },
  {
@@ -515,9 +515,9 @@ const world = {
    "properties": {
    "Country":"Venezuela",
    "Description":"One of the best-known literary magazines of fin-de- siècle Caracas, El cojo ilustrado, reported on Marinetti’s Foundation and Manifesto of Futurism on 15 May 1909 ([Anon]: “El futurismo de Marinetti”). ",
-   "Image":"",
-   "Caption":"",
-   "Source":""
+   "Image":"images/map-venezuela.jpg",
+   "Caption":"<i>válvula</i>, a periodical published in Caracas in January 1928, imparted the Italian Futurists’ sense of urgency with its visual and editorial content, cover by Venezuelan Cubo-Futurist painter, Rafael Rivero.",
+   "Source":"https://commons.wikimedia.org/wiki/File:V%C3%A1lvula_1928.jpg"
    }
  },
  {
@@ -529,9 +529,9 @@ const world = {
    "properties": {
    "Country":"Slovenia",
    "Description":"(The Former Yugoslavia and Its Republics). In 1908, Marinetti’s journal Poesia published translations of works by three Slovene poets, France Prešeren (1800–1849), Oton Župančič (1878–1949) and Josip Murn (1879–1901). ",
-   "Image":"",
-   "Caption":"",
-   "Source":""
+   "Image":"images/map-slovenia.jpg",
+   "Caption":"Ivan Čargo was a Slovene painter whoe came in contact with Futurism between 1920 and 1922 and most probably took part in a few group exhibitions.",
+   "Source":"https://en.wikipedia.org/wiki/Ivan_%C4%8Cargo#/media/File:Ivan_%C4%8Cargo.jpg"
    }
   }
  ]
